@@ -1,4 +1,5 @@
-# LoadingLayout [![](https://jitpack.io/v/czy1121/loadinglayout.svg)](https://jitpack.io/#czy1121/loadinglayout)
+# LoadingLayout [![](https://jitpack.io/v/xixilala-2019/loadinglayout.svg)](https://jitpack.io/#xixilala-2019/loadinglayout)
+
  
 简单实用的页面多状态布局(content,loading,empty,error)  
  
@@ -8,12 +9,15 @@
 ## Gradle
 
 ``` groovy
-repositories { 
-    maven { url "https://jitpack.io" }
-} 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 dependencies {
-    compile 'com.github.czy1121:loadinglayout:1.0.1'
-}
+	        implementation 'com.github.xixilala-2019:loadinglayout:1.0.2'
+	}
 ```
     
 ## Usage 
